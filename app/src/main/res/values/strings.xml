@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News Feed App</string>
+
+    <string name="no_internet_connection_txt">No Internet Connection Found</string>
+    <string name="no_news_feed_txt">No News Feed To Show</string>
+
+    <string name="settings_menu_text">Settings</string>
+    <string name="news_settings_label">News Settings</string>
+
+    <string name="news_item_author_txt">Author: %s</string>
+    <string name="news_item_publish_date">Publish Date: %s</string>
+
+    <string name="settings_order_by_section_label_txt">Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">games</string>
+
+    <string name="settings_order_by_label_txt">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_section_value</string>
+
+    <string name="settings_order_by_games_label">Games</string>
+    <string name="settings_order_by_section_value" translatable="false">games</string>
+
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">order_date</string>
+
+</resources>

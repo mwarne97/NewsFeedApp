@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/news_settings_label">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_section_default"
+        android:inputType="text"
+        android:key="@string/settings_section_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_order_by_section_label_txt" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_section_value"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label_txt" />
+
+</PreferenceScreen>
